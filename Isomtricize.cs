@@ -6,6 +6,7 @@ using UnityEngine.Rendering;
 /*
  * This is a part of rater193's public utility script pack, free for everyone to use!
  * https://github.com/rater193/UnityUtilityScripts
+ * This script was created for the Unity3D Engine.
  * */
 namespace rater193.utility
 {
