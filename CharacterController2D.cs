@@ -22,6 +22,8 @@ namespace rater193.utility
          * */
 
         //Variables
+        public float speed = 3;
+
         [HideInInspector]
         public Rigidbody2D rigidbody;
 
@@ -50,7 +52,7 @@ namespace rater193.utility
 
             //Now we set the velocity to how fast we want to move the player.
             //Dont set this to use deltatime, because that is already calculated in the physics update.
-            rigidbody.velocity = velocity;
+            rigidbody.velocity = velocity * speed;
         }
     }
 }
